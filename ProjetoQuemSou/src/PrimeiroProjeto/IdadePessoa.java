@@ -18,10 +18,12 @@ public class IdadePessoa {
 		dias = ler.nextInt();
 			ler.close();
 			
-		if (meses > 12 && meses < 1) {
+		if (meses > 12 || meses < 1) {
 
 			System.out.println("erro algum digito invalido");
-		} else {
+		}
+		
+		else {
 
 			int N1, N2, N3;
 
@@ -31,6 +33,7 @@ public class IdadePessoa {
 
 			System.out.print("voce tem :" + totalDias + " dias de vida");
 		}
+		
 	}
 
 }

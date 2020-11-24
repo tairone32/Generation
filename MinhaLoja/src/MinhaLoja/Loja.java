@@ -12,8 +12,7 @@ public class Loja {
 		
 		System.out.println("Temos duas Tvs uma: "+tv1.getMarca()+"\t"+" E outra: "+tv2.getMarca());
 		System.out.println("Temos duas Smart Phone uma: "+cel1.getMarca()+"\t"+" E outra: "+cel2.getMarca());
-		System.out.println("Temos duas Tvs uma: "+pc1.getMarca()+"\t"+" E outra: "+tv2.getMarca());
-		System.out.println("Temos duas Tvs uma: "+pc2.getMarca()+"\t"+" E outra: "+tv2.getMarca());
+		System.out.println("Temos duas Pcs uma: "+pc1.getMarca()+"\t"+" E outra: "+pc2.getMarca());
 	}
 
 }

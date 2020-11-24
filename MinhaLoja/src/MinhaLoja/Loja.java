@@ -1,5 +1,7 @@
 package MinhaLoja;
 
+import java.util.*;
+
 public class Loja {
 	public static void main(String[] args) {
 		
@@ -7,6 +9,7 @@ public class Loja {
 		Televisor tv2 = new Televisor("Televisao",2300,"TVs002","PHILCO",50,false);
 		
 		System.out.println("Temos duas Tvs uma: "+tv1.getMarca()+"\t"+" E outra: "+tv2.getMarca());
+		
+		Scanner ler = new Scanner (System.in);
 	}
-
 }

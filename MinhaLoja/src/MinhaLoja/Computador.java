@@ -35,4 +35,12 @@ public class Computador extends Produto {
 		this.hd = hd;
 	}
 	
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	
+	public String getMarca() {
+		return marca;
+	}
+	
 }
